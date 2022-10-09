@@ -54,7 +54,6 @@
 * Radialaryan
 * White-Devil-21
 * SRIMANKS
-<!-- * #105717152 -->
 * myth-mithra 
 * Kavinmaaran
 * KavimalarSubbiah
@@ -72,16 +71,13 @@
 * 9919
 * AswinG777
 * Rahul-Sriram
-<!-- * No -->
 * Sakthi-04 
 * Nsn
 * Riya-Gupta-30
-<!-- * I don't have  -->
 * pransoft7
 * ashukr07
 * Suryabh-Bhattacharya
 * premranjn
-<!-- * 114937064 -->
 * AlpahSpidey004
 * evrabhinav
 * Jatinn517
@@ -94,11 +90,9 @@
 * RDBharathwajjain2003
 * vigneshd332
 * AniSS17
-<!-- * 105579183 -->
 * dark-0712
 * PHEONIX-HEMANT
 * aryammaan
-<!-- * vabsrokf15@gmail.com -->
 * Mukunth-an
 * Madhan-404
 * Priyanshu-bansal
@@ -115,7 +109,6 @@
 * Harishthehacker 
 * vinay-126
 * tanujsharma1842
-<!-- * #98660945 -->
 * patilmanishkishor
 * AashikaG
 * Vrn-36
