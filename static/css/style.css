@@ -1,0 +1,43 @@
+body{
+	width:98%;
+	margin:1%;
+	text-align:justify;
+}
+
+h1{
+	text-align:center;
+}
+
+#githubLink{
+	z-index: 10000;
+	position:relative;
+}
+
+.subPart{
+	margin-top:3%;
+}
+
+.member{
+	margin:0.37%;
+}
+
+.panel-body{
+  margin-top: 1.2rem;
+}
+
+.tile{
+  margin: 1.2rem 0;
+}
+
+.card{
+	word-break: break-word;
+}
+
+.navbar .title-icon {
+	text-align: center;
+}
+
+.navbar .title-icon img {
+	max-width: 8%;
+	max-height: 8%;
+}

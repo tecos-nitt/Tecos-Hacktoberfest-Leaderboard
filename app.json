@@ -1,0 +1,26 @@
+{
+  "name": "TeCOS-Hacktoberfest-Leaderboard",
+  "description": "Make the hacktoberfest a competition with a leaderboard",
+  "keywords": ["TeCOS", "hacktoberfest", "leaderboard"],
+  "repository": "https://github.com/ourtigarage/hacktoberfest-leaderboard",
+  "success_url": "/",
+  "env": {
+    "GH_TOKEN": {
+      "description": "The github token used to authenticate to github API",
+      "required": false
+    },
+    "EVENT_DATE": {
+      "description": "The date criteria used to fetch data from github, in the github search format. See https://help.github.com/articles/understanding-the-search-syntax/#query-for-dates",
+      "value": ">=2005"
+    },
+    "PARTICIPANTS_FILE": {
+      "description": "./participants/participants.md",
+      "required": true
+    },
+    "OBJECTIVE": {
+      "description": "Number of pull requests to make in order to complete the challenge",
+      "value": "4",
+      "required": false
+    }
+  }
+}
