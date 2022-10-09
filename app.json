@@ -1,8 +1,8 @@
 {
   "name": "TeCOS-Hacktoberfest-Leaderboard",
   "description": "Make the hacktoberfest a competition with a leaderboard",
-  "keywords": ["TeCOS", "hacktoberfest", "leaderboard"],
-  "repository": "https://github.com/ourtigarage/hacktoberfest-leaderboard",
+  "keywords": ["TeCOS", "hacktoberfest", "leaderboard", "open source"],
+  "repository": "https://github.com/Jaiharishan/TeCOS-Hacktoberfest-Leaderboard",
   "success_url": "/",
   "env": {
     "GH_TOKEN": {
@@ -14,7 +14,7 @@
       "value": ">=2005"
     },
     "PARTICIPANTS_FILE": {
-      "description": "./participants/participants.md",
+      "description": "File path for the list of participants",
       "required": true
     },
     "OBJECTIVE": {
