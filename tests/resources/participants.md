@@ -10,9 +10,4 @@
   * @username
 ```
 
-* @MisterX22 - Xavier Le Rouzic (MisterX22)
-* @Blimy - :rainbow: Cassandra Lajeunie
-* @phsym - Pierre-Henri Symoneaux
-* @nerfox22 - Erwan Duval, le roi de la pédale
-* @Kirack2040 - Gabriel Bahezre
-* @WonderWolski - Celine - Shoot for the :rocket: :full_moon:
+* @Jaiharishan

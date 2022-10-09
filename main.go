@@ -25,7 +25,7 @@ const (
 
 var (
 	PORT              = "8080"
-	PARTICIPANTS_FILE = "https://raw.githubusercontent.com/ourtigarage/hacktoberfest-leaderboard/master/tests/resources/participants.md"
+	PARTICIPANTS_FILE = "https://raw.githubusercontent.com/Jaiharishan/TeCOS-Hacktoberfest-Leaderboard/main/participants/participants.md?token=GHSAT0AAAAAABZFFCTB5GXG7IS3KSXAOVOEY2C2AAA"
 	// EVENT_DATE        = ">=2005"
 	EVENT_DATE = "2022-10"
 	GH_TOKEN   = ""
