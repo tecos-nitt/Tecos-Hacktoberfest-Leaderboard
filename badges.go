@@ -32,47 +32,11 @@ var BADGES = []Badge{
 		},
 	},
 	{
-		"leaderboard",
-		"The leaderboard contributor",
-		"Submitted 1 Pull Request to this leaderboard's code repository",
-		func(p *Player) int {
-			c := 0
-			for _, contrib := range p.Contributions() {
-				if contrib.Repo.URL == LEADERBOARD_URL {
-					c += 1
-				}
-			}
-			return c
-		},
-	},
-	{
-		"snake",
-		"The snake charmer",
-		"Submitted 1 Pull Request to the <a href=\"https://ourtigarage.github.io/web-snake/\">snake game</a>'s code repository",
-		func(p *Player) int {
-			c := 0
-			for _, contrib := range p.Contributions() {
-				if contrib.Repo.URL == SNAKE_URL {
-					c += 1
-				}
-			}
-			return c
-		},
-	},
-	{
 		"10-contributions",
 		"The Pull Request champion",
 		"Submitted more than 10 Pull requests",
 		func(p *Player) int {
 			return p.ContributionCount() / 10
-		},
-	},
-	{
-		"crap",
-		"The smelly code",
-		"Has a Pull Request marked as invalid. Probably some bad smelling code",
-		func(p *Player) int {
-			return len(p.Invalids)
 		},
 	},
 	{
