@@ -1,36 +1,31 @@
-[![Build Status](https://travis-ci.org/ourtigarage/hacktoberfest-leaderboard.svg?branch=master)](https://travis-ci.org/ourtigarage/hacktoberfest-leaderboard)
+# Tecos-Hacktoberfest-Leaderboard
+The offical leaderboard for TeCOS-Hacktoberfest event.
 
-# hacktoberfest-leaderboard
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ourtigarage/hacktoberfest-leaderboard)
+[Hacktoberfest](https://hacktoberfest.com/) is a yearly event encouraging people to contribute to open source in October. We, the community of TeCOS, will power you up with mentors to guide and assist you in this journey.
 
-This is the leaderboard application for the Hacktoberfest summit.
-The application is kept simple so you can improve it with your own pull requests to help you
-contribute for Hacktoberfest.
-
-The application is hosted on Heroku. Visit it [here](https://hacktoberfest-leaderboard.herokuapp.com/)
-
-Happy coding!
+Happy Hacking!!
 
 ## Configuring the app
 Configuration is exclusively done by setting environment variables:
-* `PORT` : The port to bind HTTP to. Default to `8080`
+* `PORT` : The port to bind HTTP to. Default port is `8080`
 * `GH_TOKEN` : The token to authenticated to github. By default, no token is used, so API calls are not authenticated.
 * `EVENT_DATE` : The date to restrict contribution search to. It must follows the github search date format (more details [here](https://help.github.com/articles/understanding-the-search-syntax/#query-for-dates)). Default value is `>=2005` which basically fetch everything without any restriction
-* `PARTICIPANTS_FILE` : The URI or file path to the file containing the participants' github usernames. See [this file](https://raw.githubusercontent.com/ourtigarage/hacktoberfest-leaderboard/master/tests/resources/participants.md) for an example of how to format that file
+* `PARTICIPANTS_FILE` : The URI or file path to the file containing the participants' github usernames.
 * **[Deprecated]** `OBJECTIVE` : Number of pull requests to make in order to complete the challenge. Default value is `4`
 
 > If the app is running behind a proxy, you'll need to set both environment variables `HTTP_PROXY` and `HTTPS_PROXY` before running it
 
-### Building & Running the app
-Build the application by running
+## Building & Running the app
+
+Make sure you have [go](http://go.dev) installed and then build the application by running
 ```bash
     go build .
 ```
 
-Then run
+Then run the following command
 ```bash
     ./leaderboard
     # or
     ./leaderboard.exe
 ```
-then browse to http://localhost:8080
+then run it locally in http://localhost:8080
