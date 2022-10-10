@@ -84,11 +84,11 @@ var BADGES = []Badge{
 	{
 		"adventure",
 		"The adventurer",
-		"Submitted 1 Pull Request to a repository he does not own, out of <a href=\"https://github.com/ourtigarage\">ourtigarage</a> organisation",
+		"Submitted 1 Pull Request to a repository he does not own, out of <a href=\"https://github.com/\">TeCOS-Hacktoberfest-Leaderboard</a> organisation",
 		func(p *Player) int {
 			c := 0
 			for _, contrib := range p.Contributions() {
-				if contrib.Repo.Owner != p.Username && contrib.Repo.Owner != "ourtigarage" {
+				if contrib.Repo.Owner != p.Username && contrib.Repo.Owner != "tecos-nitt" {
 					c += 1
 				}
 			}
