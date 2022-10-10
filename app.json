@@ -2,7 +2,7 @@
   "name": "TeCOS-Hacktoberfest-Leaderboard",
   "description": "Make the hacktoberfest a competition with a leaderboard",
   "keywords": ["TeCOS", "hacktoberfest", "leaderboard", "open source"],
-  "repository": "https://github.com/Jaiharishan/TeCOS-Hacktoberfest-Leaderboard",
+  "repository": "https://github.com/tecos-nitt/Tecos-Hacktoberfest-Leaderboard",
   "success_url": "/",
   "env": {
     "GH_TOKEN": {
