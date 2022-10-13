@@ -23,6 +23,10 @@ h1{
 	text-align: center;
 }
 
+.usernameText{
+	font-weight: 400;
+	font-size: 20px;
+}
 #githubLink{
 	z-index: 10000;
 	position:relative;
